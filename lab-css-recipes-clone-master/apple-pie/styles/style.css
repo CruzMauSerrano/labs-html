@@ -1,0 +1,75 @@
+
+html, body{
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+header img {
+  width: 100%;
+  height: auto;
+
+}
+
+body img {
+  margin: auto;
+  display: block;
+}
+
+
+
+
+header h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+
+section {
+  max-width: 800px;
+  margin-left: 150px;
+}
+
+
+
+.dir1{
+padding-bottom: 150px;
+}
+
+.dir1 ol li {
+  width: 800px;
+  padding-bottom: 20px;
+}
+
+hr{
+  max-width: 70%;
+  
+}
+.ing1{
+padding-bottom: 80px;
+}
+
+p {
+  padding: 60px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+ol{
+  padding-left: 5vh;
+  list-style-type: none;
+  counter-reset: list-counter;
+}
+
+ol li{
+  counter-increment: list-counter;
+}
+
+ol li::before{
+  content: counter(list-counter) ") ";
+}

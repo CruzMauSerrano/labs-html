@@ -1,0 +1,150 @@
+html,
+body {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#logoprincipal {
+    height: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 50px;
+    width: 96%;
+    position: fixed;
+    z-index: 100;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-1 ul {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#section1 {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.texst1 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 38px;
+}
+
+.texst1 p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cabeset2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.cabeset2 h2 {
+    border-bottom: 4px solid rgb(0, 187, 47);
+}
+
+
+.whaspoty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.whaspoty h2 {
+    color: rgb(0, 190, 0);
+    font-size: 40px
+}
+
+
+.whaspoty p {
+    padding: 10px;
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.whaspoty img {
+    justify-content: center;
+    width: 100px;
+}
+
+
+.reprokenye {
+    background-color: rgb(0, 187, 47);
+    margin: 50px 5vw 40px 5vw;
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50% 50%;
+    display: flex;
+    padding: 70px;
+
+}
+
+.reprokenye article {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.reprokenye article h2 {
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.reprokenye article h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.reprokenye article p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 8px;
+    color: white;
+}
+
+
+.reprokenye img {
+    height: 600px;
+    margin: auto;
+}
